@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to top left   , #7a4a02d4 ,#a77c65);
+    min-height: 900px;
+}
+
+main {
+    border-radius: 8px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.253);
+    position: relative;
+    box-shadow: 1px 1px 20px 1px;
+}
+
+.player-0{
+
+    width: 50%;
+    text-align: center;
+}
+
+.player-1{
+
+    width: 50%;
+    text-align: center;
+}
+
+.title{
+    font-size: 40px;
+    margin-top: 80px;
+    font-weight: 500;
+    text-transform: uppercase;
+  
+}
+
+.score{
+    font-size: 80px;  
+    font-weight: 400;
+    color: #570000;
+}
+
+.current-container{
+
+    border-radius: 8px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color:#944d5a7e;
+    color: white;
+    padding: 10px 20px;
+}
+
+.current{
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.current-score{
+    font-size: 20px;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.459) ; 
+    border-radius: 8px 0px 0px 8px;
+    
+}
+
+.active .title{
+    font-size: 40px;
+    margin-top: 80px;
+    font-weight:600;
+    text-transform: uppercase;
+}
+
+.active .score {
+    font-size: 80px;  
+    font-weight: 600;
+    color: #570000;
+}
+
+.active .current-container {
+    border-radius: 8px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color:#f08599d2;
+    color: white;
+    padding: 10px 20px;
+}
+
+.dice-img{
+    height: 80px;
+    position: absolute;
+    top: 190px;
+}
+
+.new-game{
+    position: absolute;
+    border-radius: 8px;
+    padding: 12px 30px;
+    background-color: rgba(255, 255, 255, 0.772);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.roll{
+    position: absolute;
+    border-radius: 8px;
+    padding: 12px 30px;
+    background-color: rgba(255, 255, 255, 0.772);
+    top: 360px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.hold{
+    position: absolute;
+    border-radius: 8px;
+    padding: 8px 15px;
+    background-color: rgba(255, 255, 255, 0.772);
+    top: 450px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.winner{
+    background-color: rgb(155, 184, 96);
+}
